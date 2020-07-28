@@ -1,0 +1,39 @@
+{
+  "_fv": 8,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "book_normal",
+    "customModelName": "Normal",
+    "name": "Book",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:VillagerStuff"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 2.0,
+    "onRangedItemUsed": {
+      "name": "BookUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 7.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.BOOK"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

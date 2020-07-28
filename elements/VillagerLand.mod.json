@@ -14,7 +14,7 @@
     },
     "igniterName": "Villager Land Portal Igniter",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:VillagerStuff"
     },
     "texture": "villager_face_hd_by_ameedrenders_d7ztx7u-fullview",
     "portalTexture": "illager_ortal",

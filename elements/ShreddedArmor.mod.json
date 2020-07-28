@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "shredded_villager_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:VillagerStuff"
     },
     "armorTextureFile": "shreddedvil",
     "helmetName": "Shredded Villager Helmet",

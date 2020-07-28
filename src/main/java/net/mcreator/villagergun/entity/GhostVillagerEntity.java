@@ -22,7 +22,6 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.FlyingPathNavigator;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
@@ -46,6 +45,7 @@ import net.minecraft.client.renderer.entity.model.VillagerModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.villagergun.itemgroup.VillagerStuffItemGroup;
 import net.mcreator.villagergun.VillagergunModElements;
 
 import java.util.Random;
@@ -65,8 +65,8 @@ public class GhostVillagerEntity extends VillagergunModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.5f, 1.95f))
 						.build("ghostvillager").setRegistryName("ghostvillager");
 		elements.entities.add(() -> entity);
-		elements.items
-				.add(() -> new SpawnEggItem(entity, -1, -10079488, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("ghostvillager"));
+		elements.items.add(() -> new SpawnEggItem(entity, -1, -10079488, new Item.Properties().group(VillagerStuffItemGroup.tab))
+				.setRegistryName("ghostvillager"));
 	}
 
 	@Override

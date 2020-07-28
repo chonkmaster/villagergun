@@ -30,6 +30,8 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.villagergun.block.VillagerStoneBlock;
+import net.mcreator.villagergun.block.VillagerLogBlock;
+import net.mcreator.villagergun.block.VillagerLeavesBlock;
 import net.mcreator.villagergun.block.VillagerBlockBlock;
 import net.mcreator.villagergun.VillagergunModElements;
 
@@ -83,7 +85,7 @@ public class VillagerBiome extends VillagergunModElements.ModElement {
 			if (!(worldgen instanceof IWorld))
 				return false;
 			IWorld world = (IWorld) worldgen;
-			int height = rand.nextInt(5) + 7;
+			int height = rand.nextInt(5) + 10;
 			boolean spawnTree = true;
 			if (position.getY() >= 1 && position.getY() + height + 1 <= world.getHeight()) {
 				for (int j = position.getY(); j <= position.getY() + 1 + height; j++) {
@@ -128,8 +130,8 @@ public class VillagerBiome extends VillagergunModElements.ModElement {
 										state = world.getBlockState(blockpos);
 										if (state.getBlock().isAir(state, world, blockpos) || state.getMaterial().blocksMovement()
 												|| state.isIn(BlockTags.LEAVES) || state.getBlock() == Blocks.AIR.getDefaultState().getBlock()
-												|| state.getBlock() == Blocks.DIAMOND_BLOCK.getDefaultState().getBlock()) {
-											setTreeBlockState(changedBlocks, world, blockpos, Blocks.DIAMOND_BLOCK.getDefaultState(), bbox);
+												|| state.getBlock() == VillagerLeavesBlock.block.getDefaultState().getBlock()) {
+											setTreeBlockState(changedBlocks, world, blockpos, VillagerLeavesBlock.block.getDefaultState(), bbox);
 										}
 									}
 								}
@@ -138,10 +140,10 @@ public class VillagerBiome extends VillagergunModElements.ModElement {
 						for (int genh = 0; genh < height; genh++) {
 							BlockPos genhPos = position.up(genh);
 							state = world.getBlockState(genhPos);
-							setTreeBlockState(changedBlocks, world, genhPos, Blocks.GOLD_BLOCK.getDefaultState(), bbox);
+							setTreeBlockState(changedBlocks, world, genhPos, VillagerLogBlock.block.getDefaultState(), bbox);
 							if (state.getBlock().isAir(state, world, genhPos) || state.getMaterial().blocksMovement() || state.isIn(BlockTags.LEAVES)
 									|| state.getBlock() == Blocks.AIR.getDefaultState().getBlock()
-									|| state.getBlock() == Blocks.DIAMOND_BLOCK.getDefaultState().getBlock()) {
+									|| state.getBlock() == VillagerLeavesBlock.block.getDefaultState().getBlock()) {
 							}
 						}
 						if (rand.nextInt(4) == 0 && height > 5) {
@@ -175,8 +177,8 @@ public class VillagerBiome extends VillagergunModElements.ModElement {
 		}
 
 		private boolean canGrowInto(Block blockType) {
-			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == Blocks.GOLD_BLOCK.getDefaultState().getBlock()
-					|| blockType == Blocks.DIAMOND_BLOCK.getDefaultState().getBlock()
+			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == VillagerLogBlock.block.getDefaultState().getBlock()
+					|| blockType == VillagerLeavesBlock.block.getDefaultState().getBlock()
 					|| blockType == VillagerBlockBlock.block.getDefaultState().getBlock()
 					|| blockType == VillagerStoneBlock.block.getDefaultState().getBlock();
 		}

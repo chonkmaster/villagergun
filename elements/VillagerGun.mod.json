@@ -8,7 +8,7 @@
     "name": "Emerald Gun",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:VillagerStuff"
     },
     "stackSize": 1,
     "ammoItem": {

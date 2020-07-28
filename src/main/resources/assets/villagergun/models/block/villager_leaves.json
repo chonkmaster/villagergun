@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "villagergun:blocks/villagerleaves",
+    "particle": "villagergun:blocks/villagerleaves"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "Villager Stuff",
+    "icon": {
+      "value": "CUSTOM:BlockofVillager"
+    },
+    "showSearch": false
+  }
+}

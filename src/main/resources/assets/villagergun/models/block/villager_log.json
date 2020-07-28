@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "villagergun:blocks/cobblestone_mossy",
+    "up": "villagergun:blocks/cobblestone_mossy",
+    "north": "villagergun:blocks/villagerhead",
+    "east": "villagergun:blocks/villagerhead",
+    "south": "villagergun:blocks/villagerhead",
+    "west": "villagergun:blocks/villagerhead",
+    "particle": "villagergun:blocks/cobblestone_mossy"
+  }
+}

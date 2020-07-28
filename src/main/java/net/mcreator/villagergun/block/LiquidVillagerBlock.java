@@ -22,7 +22,6 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Items;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.Fluid;
@@ -32,6 +31,7 @@ import net.minecraft.block.FlowingFluidBlock;
 import net.minecraft.block.Block;
 
 import net.mcreator.villagergun.world.dimension.VillagerLandDimension;
+import net.mcreator.villagergun.itemgroup.VillagerStuffItemGroup;
 import net.mcreator.villagergun.VillagergunModElements;
 
 import java.util.Random;
@@ -65,8 +65,9 @@ public class LiquidVillagerBlock extends VillagergunModElements.ModElement {
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("liquidvillager_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
 		}.setRegistryName("liquidvillager"));
-		elements.items.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ItemGroup.MISC))
-				.setRegistryName("liquidvillager_bucket"));
+		elements.items
+				.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(VillagerStuffItemGroup.tab))
+						.setRegistryName("liquidvillager_bucket"));
 	}
 
 	@Override

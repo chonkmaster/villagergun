@@ -20,7 +20,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
@@ -41,6 +40,7 @@ import net.minecraft.client.renderer.entity.EntityRenderer;
 
 import net.mcreator.villagergun.procedures.SpearRangedItemUsedProcedure;
 import net.mcreator.villagergun.procedures.SPEARBULLETHITSBLOCKProcedure;
+import net.mcreator.villagergun.itemgroup.VillagerStuffItemGroup;
 import net.mcreator.villagergun.VillagergunModElements;
 
 import java.util.Random;
@@ -74,7 +74,7 @@ public class SpearItem extends VillagergunModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(100));
+			super(new Item.Properties().group(VillagerStuffItemGroup.tab).maxStackSize(1));
 			setRegistryName("spear");
 		}
 
@@ -110,7 +110,7 @@ public class SpearItem extends VillagergunModElements.ModElement {
 		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
-				ArrowCustomEntity entityarrow = shoot(world, entity, random, 1.5f, 8, 2);
+				ArrowCustomEntity entityarrow = shoot(world, entity, random, 1.5f, 4, 2);
 				itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 				entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 				int x = (int) entity.posX;

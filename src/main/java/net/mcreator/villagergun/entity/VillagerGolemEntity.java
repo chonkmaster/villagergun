@@ -18,7 +18,6 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -43,6 +42,7 @@ import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
 import net.mcreator.villagergun.procedures.VillagerGolemPlayerCollidesWithThisEntityProcedure;
+import net.mcreator.villagergun.itemgroup.VillagerStuffItemGroup;
 import net.mcreator.villagergun.VillagergunModElements;
 
 @VillagergunModElements.ModElement.Tag
@@ -59,8 +59,8 @@ public class VillagerGolemEntity extends VillagergunModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 5f)).build("villager_golem")
 						.setRegistryName("villager_golem");
 		elements.entities.add(() -> entity);
-		elements.items.add(
-				() -> new SpawnEggItem(entity, -10079488, -13421773, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("villager_golem"));
+		elements.items.add(() -> new SpawnEggItem(entity, -10079488, -13421773, new Item.Properties().group(VillagerStuffItemGroup.tab))
+				.setRegistryName("villager_golem"));
 	}
 
 	@Override

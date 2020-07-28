@@ -19,7 +19,6 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -47,6 +46,7 @@ import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
 
+import net.mcreator.villagergun.itemgroup.VillagerStuffItemGroup;
 import net.mcreator.villagergun.VillagergunModElements;
 
 @VillagergunModElements.ModElement.Tag
@@ -63,8 +63,8 @@ public class VillagerWarriorEntity extends VillagergunModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("villager_warrior")
 						.setRegistryName("villager_warrior");
 		elements.entities.add(() -> entity);
-		elements.items.add(
-				() -> new SpawnEggItem(entity, -10079488, -6710887, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("villager_warrior"));
+		elements.items.add(() -> new SpawnEggItem(entity, -10079488, -6710887, new Item.Properties().group(VillagerStuffItemGroup.tab))
+				.setRegistryName("villager_warrior"));
 	}
 
 	@Override

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "villagergun:block/villager_log"
+    },
+    "facing=north": {
+      "model": "villagergun:block/villager_log"
+    },
+    "facing=east": {
+      "model": "villagergun:block/villager_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "villagergun:block/villager_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "villagergun:block/villager_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "villagergun:block/villager_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

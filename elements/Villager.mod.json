@@ -10,17 +10,17 @@
     },
     "generateLakes": true,
     "treeType": 1,
-    "vanillaTreeType": "Mega spruce trees",
-    "minHeight": 7,
+    "vanillaTreeType": "Big trees",
+    "minHeight": 10,
     "spawnVines": false,
     "treeVines": {
       "value": "Blocks.AIR"
     },
     "treeStem": {
-      "value": "Blocks.GOLD_BLOCK"
+      "value": "CUSTOM:VillagerLog"
     },
     "treeBranch": {
-      "value": "Blocks.DIAMOND_BLOCK"
+      "value": "CUSTOM:VillagerLeaves"
     },
     "treeFruits": {
       "value": "Blocks.AIR"

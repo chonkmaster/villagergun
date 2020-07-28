@@ -11,7 +11,6 @@ import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
@@ -22,6 +21,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.villagergun.itemgroup.VillagerStuffItemGroup;
 import net.mcreator.villagergun.VillagergunModElements;
 
 import java.util.Random;
@@ -40,7 +40,7 @@ public class VillagerInfusedObsidianBlock extends VillagergunModElements.ModElem
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(VillagerStuffItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

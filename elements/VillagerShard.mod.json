@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Villager Shard",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:VillagerStuff"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -20,6 +20,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64
   }

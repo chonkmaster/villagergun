@@ -8,14 +8,14 @@
     "name": "Spear",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:VillagerStuff"
     },
-    "stackSize": 16,
+    "stackSize": 1,
     "ammoItem": {
       "value": ""
     },
     "shootConstantly": false,
-    "usageCount": 100,
+    "usageCount": 0,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
@@ -26,7 +26,7 @@
       "name": "SpearRangedItemUsed"
     },
     "bulletPower": 1.5,
-    "bulletDamage": 8.0,
+    "bulletDamage": 4.0,
     "bulletKnockback": 2,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
