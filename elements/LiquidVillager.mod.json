@@ -1,0 +1,21 @@
+{
+  "_fv": 8,
+  "_type": "fluid",
+  "definition": {
+    "name": "LiquidVillager",
+    "textureStill": "big-villager-face",
+    "textureFlowing": "big-villager-face",
+    "luminosity": 15,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "spawnWorldTypes": [
+      "CUSTOM:VillagerLand"
+    ]
+  }
+}

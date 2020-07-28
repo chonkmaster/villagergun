@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "villagergun:block/villagerland_portal_ew"
+    },
+    "axis=x": {
+      "model": "villagergun:block/villagerland_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "villagergun",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "villagergun:villagershard"
+    },
+    "1": {
+      "item": "villagergun:villagershard"
+    },
+    "2": {
+      "item": "villagergun:villagershard"
+    },
+    "3": {
+      "item": "villagergun:villagershard"
+    },
+    "4": {
+      "item": "villagergun:villagershard"
+    },
+    "5": {
+      "item": "villagergun:villagershard"
+    },
+    "6": {
+      "item": "villagergun:villagershard"
+    },
+    "7": {
+      "item": "villagergun:villagershard"
+    },
+    "8": {
+      "item": "villagergun:villagershard"
+    }
+  },
+  "result": {
+    "item": "villagergun:blockofvillager",
+    "count": 1
+  }
+}

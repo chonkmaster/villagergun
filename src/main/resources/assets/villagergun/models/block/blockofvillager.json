@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "villagergun:blocks/big-villager-face",
+    "particle": "villagergun:blocks/big-villager-face"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VillagerShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VillagerShard"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "CUSTOM:VillagerShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VillagerShard"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VillagerInfusedObsidian"
+    },
+    "name": "villager_infused_obsidian_recipe",
+    "namespace": "mod"
+  }
+}

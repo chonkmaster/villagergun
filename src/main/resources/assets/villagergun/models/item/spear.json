@@ -1,0 +1,6 @@
+{
+  "parent": "villagergun:custom/fixedlongspear",
+  "textures": {
+    "1": "villagergun:blocks/spearitemtextures"
+  }
+}

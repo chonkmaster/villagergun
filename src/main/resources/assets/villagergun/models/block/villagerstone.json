@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "villagergun:blocks/tone_illager",
+    "particle": "villagergun:blocks/tone_illager"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "villagergun:blocks/villager_obsidian",
+    "particle": "villagergun:blocks/villager_obsidian"
+  }
+}

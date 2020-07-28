@@ -1,0 +1,421 @@
+{
+  "id_map": {
+    "DIMENSION": 1,
+    "ENTITY": 4
+  },
+  "mod_elements": [
+    {
+      "name": "MagmaGearArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MagmaGearArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagmaGearArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagmaGearArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagmaGearArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockofVillager",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VillagerShard",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockofVillagerRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VillagerOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VillagerBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VillagerStone",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LiquidVillager",
+      "type": "fluid",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VillagerLand",
+      "type": "dimension",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
+    },
+    {
+      "name": "Villager",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VillagerGun",
+      "type": "gun",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "GhostVillager",
+      "type": "mob",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2,
+        "1": 3
+      }
+    },
+    {
+      "name": "StrongVillager",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ShreddedArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Spear",
+      "type": "gun",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 4
+      }
+    },
+    {
+      "name": "SpearRangedItemUsed",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SPEARBULLETHITSBLOCK",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpearRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VillagerWarrior",
+      "type": "mob",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_warrior"
+    },
+    {
+      "name": "VillagerGolem",
+      "type": "mob",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_golem"
+    },
+    {
+      "name": "VillagerGolemPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_golem_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VillagerInfusedObsidian",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_infused_obsidian"
+    },
+    {
+      "name": "VillagerInfusedObsidianRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_infused_obsidian_recipe"
+    },
+    {
+      "name": "AbandonedTowerLoot",
+      "type": "loottable",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abandoned_tower_loot"
+    },
+    {
+      "name": "AbandonedTower",
+      "type": "structure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abandoned_tower"
+    },
+    {
+      "name": "VillagerCamp",
+      "type": "structure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_camp"
+    },
+    {
+      "name": "GhostVillagerDrops",
+      "type": "loottable",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ghost_villager_drops"
+    },
+    {
+      "name": "VillagerWarriorDrops",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_warrior_drops"
+    },
+    {
+      "name": "VillagerGolemDrops",
+      "type": "loottable",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "villager_golem_drops"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.villagergun.villagerland": "Villager Land Portal Igniter",
+      "tile.blockofvillager.name": "Block of Villager",
+      "item.shreddedarmorboots.name": "Shredded Armor Boots",
+      "item.shreddedarmorbody.name": "Shredded Armor Body",
+      "item.villagergun.strongvillagerhelmet": "Villager Helmet",
+      "block.villagergun.villagerblock": "Villager Block",
+      "item.spear.name": "Spear",
+      "item.magmageararmorboots.name": "MagmaGear Boots",
+      "item.strongvillagerboots.name": "Villager Boots",
+      "item.magmageararmorlegs.name": "MagmaGear Leggings",
+      "item.strongvillagerhelmet.name": "Villager Helmet",
+      "item.villagergun.magmageararmorboots": "MagmaGear Boots",
+      "biome.villagergun.villager": "Villager",
+      "item.villagergun.magmageararmorbody": "MagmaGear Chestplate",
+      "item.villagershard.name": "Villager Shard",
+      "item.villagergun.magmageararmorlegs": "MagmaGear Leggings",
+      "item.villagerland.name": "Villager Land Portal Igniter",
+      "item.shreddedarmorlegs.name": "Shredded Armor Leggings",
+      "tile.villagerore.name": "Villager Ore",
+      "block.villagergun.villagerstone": "Villager Stone",
+      "item.magmageararmorhelmet.name": "MagmaGear Helmet",
+      "item.villagergun.strongvillagerbody": "Villager Body",
+      "block.villagergun.blockofvillager": "Block of Villager",
+      "tile.villagerblock.name": "Villager Block",
+      "entity.villagergun.ghostvillager": "Ghost Villager",
+      "item.villagergun.magmageararmorhelmet": "MagmaGear Helmet",
+      "item.villagergun.name": "Emerald Gun",
+      "item.villagergun.liquidvillager_bucket": "LiquidVillager Bucket",
+      "item.villagergun.strongvillagerboots": "Villager Boots",
+      "item.villagergun.shreddedarmorboots": "Shredded Villager Boots",
+      "item.shreddedarmorhelmet.name": "Shredded Armor Helmet",
+      "item.villagergun.villager_golem": "Villager Golem Spawn Egg",
+      "item.magmageararmorbody.name": "MagmaGear Chestplate",
+      "entity.ghostvillager.name": "Ghost Villager",
+      "item.villagergun.strongvillagerlegs": "Villager Leggings",
+      "item.villagergun.villager_warrior": "Villager Warrior Spawn Egg",
+      "item.villagergun.shreddedarmorlegs": "Shredded Villager Leggings",
+      "item.villagergun.shreddedarmorbody": "Shredded Villager Body",
+      "tile.villagerstone.name": "Villager Stone",
+      "entity.villagergun.villager_golem": "Villager Golem",
+      "item.strongvillagerbody.name": "Villager Body",
+      "item.villagergun.shreddedarmorhelmet": "Shredded Villager Helmet",
+      "item.strongvillagerlegs.name": "Villager Leggings",
+      "item.villagergun.villagershard": "Villager Shard",
+      "item.villagergun.ghostvillager": "Ghost Villager Spawn Egg",
+      "block.villagergun.villagerore": "Villager Ore",
+      "block.villagergun.villager_infused_obsidian": "Villager Infused Obsidian",
+      "item.villagergun.spear": "Spear",
+      "entity.villagergun.villager_warrior": "Villager Warrior",
+      "item.villagergun.villagergun": "Emerald Gun",
+      "fluid.liquidvillager": "LiquidVillager"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "villagergun",
+    "modName": "Villager Gun",
+    "version": "1.0.0",
+    "author": "perro, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.14.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.villagergun",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

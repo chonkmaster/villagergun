@@ -1,0 +1,30 @@
+{
+  "group": "villagergun",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "villagergun:villagershard"
+    },
+    "3": {
+      "item": "villagergun:villagershard"
+    },
+    "4": {
+      "item": "minecraft:obsidian"
+    },
+    "5": {
+      "item": "villagergun:villagershard"
+    },
+    "7": {
+      "item": "villagergun:villagershard"
+    }
+  },
+  "result": {
+    "item": "villagergun:villager_infused_obsidian",
+    "count": 1
+  }
+}

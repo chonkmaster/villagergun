@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "shredded_villager_helmet",
+    "enableBody": true,
+    "textureBody": "shredded_villager_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "shredded_villager_leggings",
+    "enableBoots": true,
+    "textureBoots": "shredded_villager_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "shreddedvil",
+    "helmetName": "Shredded Villager Helmet",
+    "bodyName": "Shredded Villager Body",
+    "leggingsName": "Shredded Villager Leggings",
+    "bootsName": "Shredded Villager Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 48,
+    "damageValueHelmet": 12,
+    "damageValueBody": 12,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 12,
+    "enchantability": 12,
+    "toughness": 5.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:VillagerShard"
+      }
+    ]
+  }
+}
